@@ -9,3 +9,20 @@
     font-size: 45px;
 
 }
+
+nav {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
