@@ -1,6 +1,14 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #fff8f3;
+    background-image: url("../images/header_bg.png"), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
 
 .text-primary {
@@ -31,7 +39,8 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
+    padding-top: 15px;
 
 }
 
@@ -48,7 +57,8 @@ nav ul {
 .banner {
     display: flex;
     align-items: center;
-    margin: 0 200px;
+    margin-left: 200px;
+    margin-right: 100px;
 }
 
 .banner-sub-tittle {
@@ -62,12 +72,117 @@ nav ul {
 
 }
 
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
 .my-8 {
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
+.mx-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.my-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.my-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.w-25 {
+    width: 25%;
+}
+
 .py-8 {
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+#about {
+    background-color: #fff8f3;
+    margin: 150px 200px;
+    padding: 100px 130px 100px;
+    text-align: center;
+
+}
+
+#about .section-title {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#about .section-description {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+
+
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-shaddow {
+    text-shadow: #757575 1px;
+}
+
+.text-lg {
+    font-size: large;
+}
+
+.text-sm {
+    font-size: small;
+}
+
+.text-light {
+    font-weight: 200;
+}
+
+
+.text-color-secondary {
+    color: #757575;
+
+
+}
+
+.mx-200 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.box-shadow {
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.text-center {
+    text-align: center;
 }
