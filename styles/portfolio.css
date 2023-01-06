@@ -3,6 +3,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-primary {
+    color: #FD6E0A;
+}
+
 /* Header and navigation styles */
 .nav-title {
     font-weight: 800;
@@ -23,8 +27,4 @@ nav li {
 
 nav ul {
     display: flex;
-}
-
-.text-primary {
-    color: #FD6E0A;
 }
